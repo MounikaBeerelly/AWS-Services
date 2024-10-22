@@ -1,0 +1,22 @@
+IAM Service:  for Authentication and authorization
+	Users - authentication
+	Policies - Permissions
+	Groups - 
+	Roles - similar to Users, created for temporary purpose.
+	
+EC2 Instance: Elastic Cloud Compute(CPU, RAM, Disk) 
+  - Requesting AWS to give virtual server and it is elastic in nature.
+  - Elastic - increase/decrease resources
+  - Management effort and cost
+  - Pay-as-go
+ EC2 Types:
+	1. General
+	2. Compute Optimized
+	3. Memory Optimized
+	4. Storage Optimized
+	5. Accelerated Optimized
+	- Depending on the application, we can create EC2 instances.
+	- Mostly we create General EC2 instance 
+	- AWS has multiple regions
+	- Availability zones
+AWS has different datacentres in across the world
