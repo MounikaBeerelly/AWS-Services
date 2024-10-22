@@ -1,0 +1,30 @@
+Amazon Simple Storage Service (Amazon S3) is a highly scalable, durable, and secure cloud-based storage service provided by Amazon Web Services (AWS). 
+Advantages of S3:
+1. Scalability
+2. Durability and Availability
+3. Cost Efficiency
+4. Security
+5. Integration with AWS Ecosystem
+6. Global Reach
+7. Object Storage Model
+8. Backup and Disaster Recovery
+9. Content Distribution
+
+S3 Use cases in Vpay Application:
+	1. Upload and download profile pictures for users
+	2. Client logos
+	3. W9 form
+	4. Vendor invoice details document
+	5. PO details document
+
+S3 Use cases in Epay Application:
+	1. Upload and download profile pictures for users
+	2. Client logos
+	3. Payee documents
+	
+S3 Use cases in Clearance Application:
+	1. Upload and download profile pictures for users
+	2. Client logos
+	3. Agency logos
+	4. Submission details
+	5. Reports
