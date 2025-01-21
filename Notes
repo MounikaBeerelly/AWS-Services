@@ -19,4 +19,4 @@ EC2 Instance: Elastic Cloud Compute(CPU, RAM, Disk)
 	- Mostly we create General EC2 instance 
 	- AWS has multiple regions
 	- Availability zones
-AWS has different datacentres in across the world
+AWS has different data centres in across the world
