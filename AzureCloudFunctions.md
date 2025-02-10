@@ -1,6 +1,8 @@
 # Azure Cloud Functions
 
-- Azure Functions is a serverless compute service provided by Microsoft Azure that allows you to run event-driven code without provisioning or managing infrastructure. It automatically scales based on demand and charges only for the execution time used.
+- Azure Functions is a serverless compute service provided by Microsoft Azure that allows you to run event-driven code without provisioning or managing infrastructure.
+- You can use Functions to build web APIs, respond to database changes, process IoT streams, manage message queues, and more.
+- It automatically scales based on demand and charges only for the execution time used.
 ### Key Features of Azure Functions
 1. **Event-Driven Execution:**
 - Functions can be triggered by various events like HTTP requests, queue messages, timers, database changes, and service bus messages.
