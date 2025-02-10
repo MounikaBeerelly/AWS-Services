@@ -15,3 +15,24 @@
   filter @message like "ERROR"
   | stats count(*) by @logStream
   ```
+2. **AWS X-Ray (Distributed Tracing)**
+- Equivalent to: Datadog APM (Application Performance Monitoring)
+- AWS X-Ray traces requests across AWS services and helps debug performance bottlenecks.
+- **Key Features**
+  - Distributed Tracing – Tracks requests from API Gateway → Lambda → DynamoDB
+  - Latency Analysis – Identifies slow-performing AWS resources
+  - Service Maps – Visual representation of AWS service interactions
+- **Example:** Enable X-Ray in AWS Lambda
+  1. Add X-Ray SDK:
+  ```
+  pip install aws-xray-sdk
+  ```
+  2. Modify Lambda function:
+  ```
+  from aws_xray_sdk.core import patch_all
+  patch_all()
+  
+  def lambda_handler(event, context):
+      return {"statusCode": 200, "body": "Tracing with X-Ray!"}
+  ```
+- View traces in AWS Console → X-Ray → Service Map.
