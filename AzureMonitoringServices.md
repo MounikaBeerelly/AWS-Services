@@ -10,7 +10,8 @@
 - **Example:** Monitor Azure Function Logs
   - Go to Azure Portal → Monitor → Metrics
   - Select a resource (e.g., Function App, VM, AKS)
-  - Create a dashboard to visualize key metrics
+  - Create a dashboard to visualize key metrics.
+    
 2️. **Azure Application Insights (APM & Tracing)**
 - Equivalent to: Datadog APM (Application Performance Monitoring)
 - Azure Application Insights provides deep application monitoring with distributed tracing, request analysis, and error tracking.
