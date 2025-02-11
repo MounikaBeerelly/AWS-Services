@@ -1,5 +1,4 @@
 # Amazon Cloudwatch
-
 - Amazon CloudWatch is a service from Amazon Web Services (AWS) that monitors and manages AWS resources and applications.
 - It provides real-time data and insights into the performance and health of your applications and infrastructure. 
 - **What CloudWatch can do**
@@ -12,3 +11,10 @@
   - Improves the reliability, performance, and cost-effectiveness of your infrastructure and applications
   - Reduces mean time to resolution (MTTR)
   - Provides a unified view of operational health.
+ 
+# AWS X-Ray
+- AWS X-Ray helps developers analyze and debug production, distributed applications, such as those built using a microservices architecture.
+- With X-Ray, you can understand how your application and its underlying services are performing to identify and troubleshoot the root cause of performance issues and errors.
+Key Features
+Distributed Tracing – Tracks requests from API Gateway → Lambda → DynamoDB
+Latency Analysis – Identifies slow-performing AWS resources
