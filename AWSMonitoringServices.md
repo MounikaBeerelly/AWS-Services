@@ -36,3 +36,14 @@
       return {"statusCode": 200, "body": "Tracing with X-Ray!"}
   ```
 - View traces in AWS Console → X-Ray → Service Map.
+
+## Both Amazon CloudWatch and AWS X-Ray are monitoring and observability services :
+| Amazon CloudWatch | AWS X-Ray |
+| ----------------- | --------- |
+|Primarily used for monitoring AWS resources and applications. It collects and tracks metrics, logs, and events, allowing users to set up alarms and dashboards for operational insights. | Focuses on tracing application requests as they flow through different services. It helps in analyzing performance bottlenecks, latency issues, and debugging distributed applications. |
+| Works with logs, metrics, and events from AWS services, applications, and infrastructure. | X-Ray: Captures traces (end-to-end request flow) and visualizes how different services interact. |
+| - Monitoring resource usage (CPU, memory, network, etc.). - Setting up alarms and automated actions. | - Debugging microservices-based architectures. - Identifying performance bottlenecks. - Tracing API requests and response times across services. |
+| Uses dashboards, graphs, and logs to provide system-wide monitoring. | Offers a service map that shows how different components interact in a request flow. |
+| Can integrate with AWS Lambda, EC2, ECS, EKS, RDS, and other AWS services for monitoring. | Works well with microservices, containerized applications, AWS Lambda, and API Gateway to provide distributed tracing. |
+| Pricing is based on metrics, logs, and events ingested and stored. | Pricing is based on the number of traces recorded and analyzed. |
+| Use CloudWatch when you need high-level system monitoring, infrastructure insights, and alerts. | Use X-Ray when you need detailed request tracing, performance analysis, and debugging for microservices. |
