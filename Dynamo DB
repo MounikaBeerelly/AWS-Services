@@ -1,11 +1,16 @@
-DynamoDB is a fully managed NoSQL database service provided by Amazon Web Services (AWS). It is designed for applications that need low-latency data access, high scalability, and performance.
+DynamoDB is a fully managed NoSQL database service provided by Amazon Web Services (AWS). It is designed for applications that
+need low-latency data access, high scalability, and performance.
 Advantages of DynamoDB:
 	1. Fully Managed: 
-		• No Server Management: AWS manages all infrastructure, including replication, patching, and hardware provisioning, allowing developers to focus on building applications without managing the underlying systems.
-		• Automatic Backups: It automatically provides on-demand and continuous backups, making disaster recovery easier and ensuring data protection.
+		• No Server Management: AWS manages all infrastructure, including replication, patching, and hardware 
+                  provisioning, allowing developers to focus on building applications without managing the underlying systems.
+		• Automatic Backups: It automatically provides on-demand and continuous backups, making disaster recovery easier
+                  and ensuring data protection.
 	2. Scalability and Performance:
-		• Automatic Scaling: DynamoDB automatically scales to handle increasing or decreasing demand without the need for manual intervention.
-		• Single-digit Millisecond Latency: DynamoDB provides fast performance with low-latency reads and writes, making it suitable for high-performance applications such as gaming, e-commerce, or real-time analytics.
+		• Automatic Scaling: DynamoDB automatically scales to handle increasing or decreasing demand without the need for
+                  manual intervention.
+		• Single-digit Millisecond Latency: DynamoDB provides fast performance with low-latency reads and writes, making
+                  it suitable for high-performance applications such as gaming, e-commerce, or real-time analytics.
 	3. Flexible Data Model:
 		• Schema-less: Unlike traditional relational databases, DynamoDB is schema-less, meaning you don't need to predefine the structure of your data. This flexibility allows for the easy addition of new attributes without downtime or migrations.
 		• Key-Value and Document Store: DynamoDB can store both key-value pairs and document data (JSON-like), making it versatile for a wide range of applications.
